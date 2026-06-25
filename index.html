@@ -154,25 +154,15 @@ button:hover{
     <h1>CONTACT</h1>
     <p>Let's create something amazing together.</p>
 
-    <form action="https://formspree.io/f/mgojanqk"
-        method="POST">
-        <div class="input-box">
-            <input type="text" placeholder="Your Name">
-        </div>
-
-        <div class="input-box">
-            <input type="email" placeholder="Your Email">
-        </div>
-
-        <div class="input-box">
-            <textarea placeholder="Your Message"></textarea>
-        </div>
-        
-        
-    <a href="https://adiyt5287.github.io/Contact-me/" class="glass-btn">
-     Send Message ✨
-</a>
-
+    <form action="https://formspree.io/f/mgojanqk" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+        <a href="https://adiyt5287.github.io/Contact-me/"
+    <button type="submit">Send Message</button>
+        </a>
+    </form>
+    
 <style>
 body{
     background:#0f172a; /* Dark blue background */
